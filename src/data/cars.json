@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Model A",
+        "price": 18.500,
+        "image": "./imgs/modelA.png",
+        "type": "Sedan"
+    },
+    {
+        "id": 2,
+        "name": "Model B",
+        "price": 20.500,
+        "image": "./imgs/modelB.png",
+        "type": "Sedan"
+    },
+    {
+        "id": 3,
+        "name": "Model C",
+        "price": 18.500,
+        "image": "./imgs/modelC.png",
+        "type": "Sport"
+    },
+    {
+        "id": 4,
+        "name": "Model D",
+        "price": 22.500,
+        "image": "./imgs/modelD.png",
+        "type": "Sport"
+    },
+    {
+        "id": 5,
+        "name": "Model E",
+        "price": 24.500,
+        "image": "./imgs/modelE.png",
+        "type": "SUV"
+    },
+    {
+        "id": 6,
+        "name": "Model F",
+        "price": 26.500,
+        "image": "./imgs/modelF.png",
+        "type": "SUV"
+    }
+]
