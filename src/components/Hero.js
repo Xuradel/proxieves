@@ -9,7 +9,7 @@ function Hero() {
                 <button class="btn"> Discover your dream ride</button>
             </div>
             <div className='hero-image'>
-                <img className='hero-image' src={require('../images/sedan.png')}></img>
+                <img className='hero-image' src={require('../images/car5.png')}></img>
             </div>
         </header>
     )

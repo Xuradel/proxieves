@@ -50,9 +50,24 @@ cursor: grab;margin-bottom: 8rem;}
 .features-section{display: flex;align-items: center;justify-content: center;padding: 0 16rem;}
 .features-text{display: flex;flex-direction: column;gap:4rem}
 .features-properties{display: flex;flex-direction: column;gap:2rem}
-.property{display: flex;flex-direction: column;gap:.5rem;width: 80%;}
+.property{display: flex;flex-direction: column;gap:.5rem;width: 80%;border-top: solid 2px #EEEEEE;padding-top: 1rem;}
 .property img{width: 50px;height: 50px;}
 .features-image img{width: 100%;}
+
+/* Sponsors Section */
+
+.sponsors-section{display: flex;flex-direction: column;background-color: #FAFAFA; align-items: center;margin: 8rem 0;
+padding: 4rem 0; gap:2rem}
+.sponsors-text{border-bottom: solid 2px #EEEEEE;padding-bottom: 2rem;}
+.sponsors-logos{display: flex;gap:1rem;flex-wrap: wrap;}
+
+/* Footer Section */
+
+footer{display: flex;flex-direction: column;font-family: 'appleRegular';font-size: 14px;gap:1.5rem;padding: 2rem 4rem;
+background-color: #FAFAFA;margin-top: 4rem;}
+footer img{width: 4rem;height: 4rem;}
+footer a{color:#B6B6B6;text-decoration: none;}
+footer p{font-family: 'appleRegular';font-size: 14px;color:#B6B6B6}
 
 @media(760px < width < 1024px){
   h1{font-family: 'appleBold'; font-size: 58px; color: black;}
@@ -68,12 +83,13 @@ cursor: grab;margin-bottom: 8rem;}
   .new-section{margin: 0 4rem;margin-bottom: 8rem;}
   .card{display: flex;flex-direction: column;width: 340px;}
   .card-more{width: 200px;height: 100%;display: flex;position: relative; top: 8rem;}
-
+  .features-section{flex-direction: column;padding: 0 4rem;}
+  .sponsors-section{margin: 6rem 0;}
 }
 
 @media(width < 760px){
   h1{font-family: 'appleBold'; font-size: 34px; color: black;}
-  h2{font-family: 'appleBold'; font-size: 64px;}
+  h2{font-family: 'appleBold'; font-size: 40px;}
   h3{font-family: 'appleBold'; font-size: 30px;}
   h4{font-family: 'appleLight'; font-size: 15px;}
   h5{font-family: 'appleBold';font-size: 18px;}
@@ -86,4 +102,7 @@ cursor: grab;margin-bottom: 8rem;}
   .new-section{margin: 0 1rem;margin-bottom: 4rem;}
   .card{display: flex;flex-direction: column;width: 200px;}
   .card-more{width: 200px;height: 100%;display: flex;position: relative; top: 5rem;}
+  .features-section{flex-direction: column;padding: 0 2rem;}
+  .sponsors-section{margin: 4rem 0;}
+
 }

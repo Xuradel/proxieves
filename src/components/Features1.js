@@ -24,7 +24,7 @@ function Features1() {
                 </div>
             </div>
             <div className='features-image'>
-                <img src={require('../images/car1.png')}></img>
+                <img src={require('../images/car6.png')}></img>
             </div>
         </div>
     )
